@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Ben Catania</h1>
+            <h2>Software Engineering Student</h2>
+            <a href="docs/resume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I am a junior at Cornell Univerrsity studying Information Science and Applied Economics & Management with a minor in Computer Science.
+                        I am extremely interested in working in software engineering, and having a background in both computer science and business, I have developed excellent programming and communication skills. 
+                        Further, my ability to analyze problems and understand clients’ needs has enabled me to provide software solutions that better serve my target users.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="June 2021 – August 2021">
+                <h3>Voom Insurance</h3>
+                <h4>Software Engineering Intern</h4>
+                <ul>
+                    <li>Utilized OpenStreetMap, PostgreSQL, and internal Skywatch API to render hazard data for real-time drone insurance pricing</li>
+                    <li>Automated process of identifying discrepancies between policy sales and payments received using Pandas, Stripe, and Azure</li>
+                    <li>Developed calculator for insurance premiums based on real-time environmental conditions and user data using Angular, Tornado, Logging, SQL, MongoDB, OpenWeatherMap, and Google Maps</li>
+                </ul>
+            </div>
+
+            <div data-date="May 2020 – June 2020">
+                <h3>Eaton Corporation</h3>
+                <h4>Crouse-Hinds Analyst</h4>
+                <ul>
+                    <li>Programmed 3 VBA macros to automate data retrieval, sorting, and manipulation from SAP to improve sales team efficiency</li>
+                    <li>Employed Power BI and Power Query to create reports and dashboards for sales team to effectively understand product data</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Cornell University</h3>
+            <span class="education-date">Sept 2019 - May 2023</span>
+            <h4>Bachelor of Science in Information Science and Applied Economics & Management <br>Minor in Computer Science <br>GPA: 4.1</h4>
+            <h5>Relevant Coursework</h5>
+            <p>
+                Completed: Object-Oriented Programming and Data Structures, Discrete Structures, Functional Programming, Linear Algebra, Statistics, Calculus II, Web Design & Programming
+                <br>Will be Completed by May 2022: Machine Learning, Computer Vision, Multivariable Calculus, Data Science, Computer System Organization and Programming, Natural Language Processing
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img class="img" src="images/yoomi.gif" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Yoomi</h3>
+                            <p>Developed physical therapy platform that utilizes computer vision to provide real-time exercise form feedback to patients. I have 
+                            created a minimum viable product utilizing React, Firebase, and MoveNet to raise funding for final product development. I have also
+                            conducted market research with over 30 physical therapists and patients to develop Figma wireframe design and pitch deck</p>
+                        <!-- <a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/discord.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Discord Bot</h3>
+                            <p>Programmed Discord bot utilizing Tkinter, Selenium, and threading to gain sales leads for CassCaps. Bot also had the ability to identify new members in servers, enabling indefinite use of bot in any server.</p>
+                       <!-- <a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/youtube.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>YouTube Bot</h3>
+                            <p>Implemented YouTube bot using requests and Youtube API to drive sales traffic for multiple startups. The script was able to identify and message thousands of targeted leads per day.</p>
+                       <!-- <a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/linkedinnav.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>LinkedIn Sales Navigator Bot</h3>
+                            <p>Developed LinkedIn Sales Navigator bot using Python and Selenium to acquire targetted leads based on keywords for Fairfly. Bot was able to take in sales leads inputted by a user, and find 10k+ similar sales leads for the company to pursue per day.</p>
+                       <!-- <a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/chess.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Chess Game</h3>
+                            <p>Produced chess game in OCaml to enable multiplayer games as well as games against a chess AI. The chess AI was implemeneted using a minimax algorithm to allow for varying degrees of engine difficulty.</li>
+                       <!-- <a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/tableau.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Smith College Tableau Research</h3>
+                            <p>Formulated and implemented recursive algorithm for math PhDs to quickly find and analyze specific matrices in Young Tableau partial orders. This program drastically increased the speed at which the team conducted research.</p>
+                       <!-- <a href="#">View Project</a>-->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Angular</li>
+            <li>React</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>MongoDB</li>
+            <li>Tornado</li>
+            <li>OCaml</li>
+            <li>Power BI</li>
+            <li>Figma</li>
+            <li>Google Analytics</li>
+            <li>Microsoft Office</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <h4 class="contactText">
+            Email: bjc288@cornell.edu <br>
+            Phone: 315-430-6816
+            </h4>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2021 Ben Catania
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/bcat13" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                   
+                        <li>
+                            <a href="https://www.linkedin.com/in/benjamin-catania/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
